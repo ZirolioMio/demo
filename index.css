@@ -558,6 +558,38 @@ video {
   outline: none;
 }
 
+.scrollbar2px {
+  scrollbar-width: thin;
+}
+
+.scrollbar2px::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.scrollbar2px::-webkit-scrollbar-thumb {
+  background-color: #6d6d6d;
+  border-radius: 2px;
+}
+
+.scrollbar2px::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.scrollbar2px::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.scrollbar2px::-webkit-scrollbar-thumb {
+  background-color: #6d6d6d;
+  border-radius: 2px;
+}
+
+.scrollbar2px::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+
 .scrollbarGray2px {
   scrollbar-width: thin;
 }
@@ -748,6 +780,10 @@ video {
   height: 100%;
 }
 
+.max-h-\[200px\] {
+  max-height: 200px;
+}
+
 .\!min-h-\[560px\] {
   min-height: 560px !important;
 }
@@ -822,6 +858,14 @@ video {
 
 .max-w-\[570px\] {
   max-width: 570px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
 }
 
 .translate-x-\[0px\] {
