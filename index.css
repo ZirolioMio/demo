@@ -665,10 +665,6 @@ video {
   bottom: 6px;
 }
 
-.left-2 {
-  left: 0.5rem;
-}
-
 .right-4 {
   right: 1rem;
 }
@@ -679,10 +675,6 @@ video {
 
 .right-\[6px\] {
   right: 6px;
-}
-
-.top-4 {
-  top: 1rem;
 }
 
 .top-5 {
@@ -750,6 +742,10 @@ video {
 
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .ml-4 {
@@ -850,6 +846,10 @@ video {
 
 .h-\[90\%\] {
   height: 90%;
+}
+
+.h-\[95\%\] {
+  height: 95%;
 }
 
 .h-full {
@@ -1580,10 +1580,6 @@ video {
   font-size: 40px;
 }
 
-.text-\[48px\] {
-  font-size: 48px;
-}
-
 .text-\[50px\] {
   font-size: 50px;
 }
@@ -1945,6 +1941,18 @@ video {
   }
 }
 
+@media (max-width: 800px) {
+  .max-\[800px\]\:text-\[28px\] {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 775px) {
+  .max-\[775px\]\:text-\[23px\] {
+    font-size: 23px;
+  }
+}
+
 @media not all and (min-width: 768px) {
   .max-md\:mx-4 {
     margin-left: 1rem;
@@ -1975,6 +1983,10 @@ video {
 @media (max-width: 670px) {
   .max-\[670px\]\:text-\[14px\] {
     font-size: 14px;
+  }
+
+  .max-\[670px\]\:text-\[22px\] {
+    font-size: 22px;
   }
 }
 
@@ -2024,10 +2036,6 @@ video {
   .max-sm\:text-\[30px\] {
     font-size: 30px;
   }
-
-  .max-sm\:text-\[40px\] {
-    font-size: 40px;
-  }
 }
 
 @media (max-width: 640px) {
@@ -2043,6 +2051,20 @@ video {
 
   .max-\[610px\]\:first-of-type\:mb-\[2\%\]:first-of-type {
     margin-bottom: 2%;
+  }
+}
+
+@media (max-width: 500px) {
+  .max-\[500px\]\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .max-\[500px\]\:w-full {
+    width: 100%;
+  }
+
+  .max-\[500px\]\:flex-col {
+    flex-direction: column;
   }
 }
 
@@ -2094,6 +2116,12 @@ video {
   }
 }
 
+@media (min-width: 500px) {
+  .min-\[500px\]\:w-\[45\%\] {
+    width: 45%;
+  }
+}
+
 @media (min-width: 610px) {
   .min-\[610px\]\:w-\[50\%\] {
     width: 50%;
@@ -2108,9 +2136,17 @@ video {
   .sm\:h-\[400px\] {
     height: 400px;
   }
+}
 
-  .sm\:text-\[23px\] {
-    font-size: 23px;
+@media (min-width: 775px) {
+  .min-\[775px\]\:text-\[26px\] {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 800px) {
+  .min-\[800px\]\:text-\[34px\] {
+    font-size: 34px;
   }
 }
 
