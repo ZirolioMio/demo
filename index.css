@@ -789,6 +789,10 @@ video {
   display: inline-flex;
 }
 
+.\!h-\[125px\] {
+  height: 125px !important;
+}
+
 .\!h-\[80\%\] {
   height: 80% !important;
 }
@@ -939,6 +943,10 @@ video {
 
 .w-\[545px\] {
   width: 545px;
+}
+
+.w-\[55\%\] {
+  width: 55%;
 }
 
 .w-\[55px\] {
