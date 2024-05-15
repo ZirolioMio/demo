@@ -1109,10 +1109,6 @@ video {
   justify-content: space-evenly;
 }
 
-.overflow-auto {
-  overflow: auto;
-}
-
 .\!overflow-hidden {
   overflow: hidden !important;
 }
@@ -1574,6 +1570,10 @@ video {
 
 .pt-3 {
   padding-top: 0.75rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pt-7 {
@@ -2233,12 +2233,13 @@ video {
 }
 
 @media (min-width: 860px) {
-  .min-\[860px\]\:ml-3 {
+  .min-\[860px\]\:mx-3 {
     margin-left: 0.75rem;
+    margin-right: 0.75rem;
   }
 
-  .min-\[860px\]\:mr-3 {
-    margin-right: 0.75rem;
+  .min-\[860px\]\:ml-3 {
+    margin-left: 0.75rem;
   }
 
   .min-\[860px\]\:w-\[780px\] {
@@ -2247,6 +2248,14 @@ video {
 
   .min-\[860px\]\:p-3 {
     padding: 0.75rem;
+  }
+
+  .min-\[860px\]\:first-of-type\:ml-0:first-of-type {
+    margin-left: 0px;
+  }
+
+  .min-\[860px\]\:last-of-type\:mr-0:last-of-type {
+    margin-right: 0px;
   }
 }
 
